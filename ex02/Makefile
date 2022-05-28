@@ -1,7 +1,7 @@
 NAME		=	a.out
 
 SRCS		=	\
-				Animal.cpp \
+				AAnimal.cpp \
 				Brain.cpp \
 				Cat.cpp \
 				Dog.cpp \

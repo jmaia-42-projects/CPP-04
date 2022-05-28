@@ -6,11 +6,11 @@
 /*   By: jmaia <jmaia@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 18:25:24 by jmaia             #+#    #+#             */
-/*   Updated: 2022/05/28 19:38:52 by jmaia            ###   ########.fr       */
+/*   Updated: 2022/05/28 19:41:55 by jmaia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "AAnimal.hpp"
 #include "Cat.hpp"
 #include "Dog.hpp"
 #include "WrongAnimal.hpp"
@@ -22,8 +22,8 @@ int	main(void)
 {
 	{
 //		Animal const	*meta; // This does not work anymore
-		Animal const	*j;
-		Animal const	*i;
+		AAnimal const	*j;
+		AAnimal const	*i;
 
 //		meta = new Animal(); // This does not work anymore
 		j = new Dog();
@@ -54,7 +54,7 @@ int	main(void)
 		delete wCat;
 	}
 
-	Animal	*animals[10];
+	AAnimal	*animals[10];
 
 	for (int i = 0; i < 5; i++)
 		animals[i] = new Dog();

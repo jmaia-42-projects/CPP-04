@@ -6,17 +6,17 @@
 /*   By: jmaia <jmaia@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 18:22:00 by jmaia             #+#    #+#             */
-/*   Updated: 2022/05/28 19:25:03 by jmaia            ###   ########.fr       */
+/*   Updated: 2022/05/28 19:41:24 by jmaia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef DOG_HPP
 # define DOG_HPP
 
-# include "Animal.hpp"
+# include "AAnimal.hpp"
 # include "Brain.hpp"
 
-class	Dog:	public Animal
+class	Dog:	public AAnimal
 {
 	private:
 		Brain	*brain;

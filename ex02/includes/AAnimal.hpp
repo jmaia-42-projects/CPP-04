@@ -1,30 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Animal.hpp                                         :+:      :+:    :+:   */
+/*   AAnimal.hpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jmaia <jmaia@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 18:08:10 by jmaia             #+#    #+#             */
-/*   Updated: 2022/05/28 19:38:10 by jmaia            ###   ########.fr       */
+/*   Updated: 2022/05/28 19:40:05 by jmaia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ANIMAL_HPP
-# define ANIMAL_HPP
+#ifndef AANIMAL_HPP
+# define AANIMAL_HPP
 
 # include <string>
 
-class	Animal
+class	AAnimal
 {
 	protected:
 		std::string	type;
 	public:
-		Animal(void);
-		Animal(Animal const &obj);
-		virtual ~Animal(void);
+		AAnimal(void);
+		AAnimal(AAnimal const &obj);
+		virtual ~AAnimal(void);
 
-		Animal	&operator=(Animal const &obj);
+		AAnimal	&operator=(AAnimal const &obj);
 
 		std::string			getType(void) const;
 		virtual void		makeSound(void) const = 0;

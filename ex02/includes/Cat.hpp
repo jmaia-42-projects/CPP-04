@@ -6,17 +6,17 @@
 /*   By: jmaia <jmaia@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 18:22:00 by jmaia             #+#    #+#             */
-/*   Updated: 2022/05/28 19:24:54 by jmaia            ###   ########.fr       */
+/*   Updated: 2022/05/28 19:40:57 by jmaia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CAT_HPP
 # define CAT_HPP
 
-# include "Animal.hpp"
+# include "AAnimal.hpp"
 # include "Brain.hpp"
 
-class	Cat:	public Animal
+class	Cat:	public AAnimal
 {
 	private:
 		Brain	*brain;
